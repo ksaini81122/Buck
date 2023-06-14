@@ -14,8 +14,8 @@ for name in files:
     plugs=pxt.stem
     load_plug(plugs.replace(".py",""))
 print("BUCK_BOT STARTED & LOADED ALL PLUGINS")
-if __name__=="__main__":
- if len(argv) not in (1, 3, 4):
-     bot.disconnect()
-else:
+if __name__=="__main__": 
+   if len(argv) not in (1, 3, 4): 
+     bot.disconnect() 
+   else: 
      bot.run_until_disconnected()
